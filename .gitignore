@@ -11,3 +11,4 @@ share
 *.db
 *.sqlite3
 static_collected/
+/logo
