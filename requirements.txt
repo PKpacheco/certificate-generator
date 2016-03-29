@@ -1,0 +1,10 @@
+Django==1.9.4
+django-ckeditor==5.0.3
+django-suit==0.2.18
+djangorestframework==3.3.3
+html5lib==0.9999999
+Pillow==3.1.1
+PyPDF2==1.25.1
+reportlab==3.3.0
+six==1.10.0
+xhtml2pdf==0.0.6

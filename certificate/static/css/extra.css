@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+}
+.thumbnail
+{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.field-order-size
+{
+    width: 30px !important; 
+}
+
+.field-id-video
+{
+    width: 90px !important; 
+}
+.img-admin
+{
+    width: 300px !important;
+}

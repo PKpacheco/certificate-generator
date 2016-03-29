@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <title>teste</title>
+</head>
+
+<style>
+    @font-face {
+      font-family: "DejaVuSansMono";
+      src: url("http://localhost:8000/static/fonts/DejaVuSansMono.ttf");
+    }
+
+    html {
+        font-family: "DejaVuSansMono";
+    }
+
+</style>
+<body>
+
+    {{ proposal.time|date }}<br><br>
+    {{ proposal.time|safe}} <br><br>
+    {{ proposal.init_hour|safe }}<br><br>
+    {{ proposal.finish_hour|safe }}
+    {{ proposal.logo|safe }}
+<!--     {{ proposal.description_buffet|safe }}<br><br>
+    {{ proposal.description_candy|safe }}<br><br>
+    {{ proposal.description_drink|safe }}    
+    {{ proposal.description_summer|safe }}    
+    {{ proposal.description_winter|safe }}    
+    {{ proposal.description_food|safe }}    
+    {{ proposal.description_congratulations|safe }}    
+    {{ proposal.description_animation|safe }}
+    {{ proposal.number_guests|safe }}    
+    {{ proposal.party_value|safe }}    
+ -->
+
+
+</body>
+</html>

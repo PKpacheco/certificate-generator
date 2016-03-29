@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+media/
+bin
+build
+include
+lib
+local
+man
+share
+*.db
+*.sqlite3
+static_collected/
